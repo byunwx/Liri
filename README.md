@@ -49,5 +49,5 @@ switch (process.argv[2]) {
 * output>
   * this is loaded
   * success!: I love my tweeter!
+  
 ![GitHub Logo](/images/tweetexample.png)
-Format: ![Alt Text](url)
