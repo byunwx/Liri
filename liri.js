@@ -33,16 +33,17 @@ var tweeterFunction=function(){ //display all of my tweets
     var statusMaker=function(){
       for (var i = 4; i < process.argv.length; i++) {
         if (i==process.argv.length-1) {
-          command+=process.argv[i];
+          tweetStatus+=process.argv[i];
         }else{
-        command+=process.argv[i]+" ";
+        tweetStatus+=process.argv[i]+" ";
         }
       }
     }
+    statusMaker();
     client.post('statuses/update', {status: tweetStatus},  function(error, tweet, response) {
       if(error) throw error;
-      console.log("success!: "+tweet);  // Tweet body.
-      var output="success!: "+tweet+"\n";
+      console.log("success!: "+tweetStatus);  // Tweet body.
+      var output="posted: "+tweetStatus+" in my tweeter\n";
       recordAlldata(output);
 
   });

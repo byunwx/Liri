@@ -2,3 +2,5 @@ viewed I Want It That Way in spotify
 viewed The Dark Knight Rises in omdbapi
 viewed elonmusk tweeter
 viewed my tweeter
+posted: [object Object] in my tweeter
+posted: I love my tweeter! in my tweeter
