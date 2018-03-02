@@ -51,3 +51,33 @@ switch (process.argv[2]) {
   * success!: I love my tweeter!
   
 ![GitHub Logo](/images/tweetexample.png)
+
+## Log user activity
+* this function below will make a log.txt based on user activity.
+
+```javascript
+var recordAlldata=function(outputDATA){
+
+  fs.appendFile("log.txt", outputDATA, function(err) {
+    if (err) {
+      return console.log(err);
+    }
+  });
+}
+```
+
+* example log.txt
+```javascript
+viewed I Want It That Way in spotify
+viewed The Dark Knight Rises in omdbapi
+viewed elonmusk tweeter
+viewed my tweeter
+posted: [object Object] in my tweeter
+posted: I love my tweeter! in my tweeter
+posted: test node module post tweet in my tweeter
+viewed my tweeter
+viewed elonmusk tweeter
+viewed Gangnam Style (강남스타일) in spotify
+viewed Spider Man in omdbapi
+viewed Batman in omdbapi
+```
