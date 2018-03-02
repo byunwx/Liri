@@ -1,0 +1,26 @@
+{
+  "name": "liri",
+  "version": "1.0.0",
+  "description": "LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface.",
+  "main": "keys.js",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.83.0",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byunwx/Liri.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/byunwx/Liri/issues"
+  },
+  "homepage": "https://github.com/byunwx/Liri#readme"
+}
