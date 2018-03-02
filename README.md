@@ -9,6 +9,19 @@
 * node-spotify-api npm
 * request npm
 * fs (built in reqire method)
+## All commands
+* Liri takes the input using process.argv
+  * Which means that user have to write: node liri.js <command> (process.argv[2] process.argv[3]++)
+* command for process.argv[2]
+  * my-tweets : access user's tweeter // by it-self it will lists all the tweets status user has.
+  post : post status to user tweeter (example: node liri.js my-tweets post <message for status update>)
+  * tweets : list other person's tweeter status
+   <A person's ID>
+  * spotify-this-song : lists song info // default: "The Sign" by Ace of Base
+   <song name + artist name> 
+  * movie-this : list movie info // defualt: "dark knight rises"
+   <movie name>
+  * do-what-it-says : LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
 ## User input
 * ex) node liri.js my-tweets post I love my tweeter!
 * explained
